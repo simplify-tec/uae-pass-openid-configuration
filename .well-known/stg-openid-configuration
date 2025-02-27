@@ -1,0 +1,16 @@
+{
+  "issuer": "https://stg-id.uaepass.ae",
+  "authorization_endpoint": "https://stg-id.uaepass.ae/idshub/authorize",
+  "token_endpoint": "https://stg-id.uaepass.ae/idshub/token",
+  "userinfo_endpoint": "https://stg-id.uaepass.ae/idshub/userinfo",
+  "jwks_uri": "https://www.googleapis.com/oauth2/v3/certs",
+  "response_types_supported": [
+    "code"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ]
+}
